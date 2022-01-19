@@ -1,0 +1,10 @@
+hr.star-light:after, hr.star-dark:after {
+  position: relative;
+  top: -0.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+
