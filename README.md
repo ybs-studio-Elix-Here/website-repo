@@ -1,4 +1,4 @@
 # website-repo
 
 WEBSITE LINK : 
-https://studio-ybs.ml
+https://ybsoft.studio
