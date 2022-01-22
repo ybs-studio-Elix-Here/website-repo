@@ -82,3 +82,21 @@ hr.star-light:after, hr.star-dark:after {
   --bs-body-bg: #eef4f7;
 }
 
+.bg-primary {
+  background-color: #0094ff !important;
+}
+
+a {
+  color: #0094ff;
+}
+
+a:hover {
+  color: #0094ff;
+  /*text-decoration: underline;*/
+}
+
+a {
+  color: #0094ff;
+  text-decoration: blink;
+}
+
