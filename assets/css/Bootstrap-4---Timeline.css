@@ -47,3 +47,7 @@ li.timeline-item::before {
   color: #999;
 }
 
+.timeline {
+  background: url("../../assets/img/homewallpaper.png");
+}
+
