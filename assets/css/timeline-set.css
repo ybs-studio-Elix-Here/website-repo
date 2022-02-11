@@ -123,19 +123,43 @@
 }
 
 .main-timeline .timeline:nth-child(4n + 3) .timeline-content:before {
-  background-color: #4C63FF;
+  background-color: #003cff;
 }
 
 .main-timeline .timeline:nth-child(4n + 3) .title {
-  color: #4C63FF;
+  color: #003cff;
 }
 
 .main-timeline .timeline:nth-child(4n + 4) .timeline-content:before {
-  background-color: #F71D51;
+  background-color: #0284fd;
 }
 
 .main-timeline .timeline:nth-child(4n + 4) .title {
-  color: #F71D51;
+  color: #0284fd;
+}
+
+.main-timeline .timeline:nth-child(4n + 5) .timeline-content:before {
+  background-color: #003cff;
+}
+
+.main-timeline .timeline:nth-child(4n + 5) .title {
+  color: #003cff;
+}
+
+.main-timeline .timeline:nth-child(4n + 6) .timeline-content:before {
+  background-color: #0284fd;
+}
+
+.main-timeline .timeline:nth-child(4n + 6) .title {
+  color: #0284fd;
+}
+
+.main-timeline .timeline:nth-child(4n + 7) .timeline-content:before {
+  background-color: #003cff;
+}
+
+.main-timeline .timeline:nth-child(4n + 7) .title {
+  color: #003cff;
 }
 
 @media screen and (max-width:767px) {
