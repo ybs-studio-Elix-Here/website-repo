@@ -9,15 +9,16 @@
 }
 
 .main-timeline .timeline {
-  width: 50%;
+  width: 100%;
   margin: 0 5px 0 0;
   float: left;
+  margin-top: 30px;
 }
 
 .main-timeline .timeline-content {
   color: #333;
   padding: 30px 80px 30px 70px;
-  border-radius: 30px;
+  border-radius: 0px;
   display: block;
   overflow: hidden;
   position: relative;
@@ -30,8 +31,8 @@
 
 .main-timeline .timeline-content:before, .main-timeline .timeline-content:after {
   content: '';
-  background-color: #003cff;
-  border-radius: 30px;
+  background-color: #1b72c2;
+  border-radius: 0px;
   position: absolute;
   top: 10px;
   bottom: 0;
@@ -50,7 +51,7 @@
 
 .main-timeline .timeline-year {
   color: #fff;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 600;
   line-height: 30px;
   transform: translateY(-50%) rotate(90deg);
@@ -71,23 +72,24 @@
 }
 
 .main-timeline .title {
-  color: #003cff;
+  color: #000000;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0 0 3px;
+  margin: 0 0 10px;
 }
 
 .main-timeline .description {
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  letter-spacing: 1px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  letter-spacing: 0px;
   margin: 0;
 }
 
 .main-timeline .timeline:nth-child(even) {
   float: right;
   margin: 0 0 0 5px;
+  margin-top: 30px;
 }
 
 .main-timeline .timeline:nth-child(even) .timeline-content {
@@ -115,51 +117,51 @@
 }
 
 .main-timeline .timeline:nth-child(4n + 2) .timeline-content:before {
-  background-color: #0284fd;
+  background-color: #1b72c2;
 }
 
 .main-timeline .timeline:nth-child(4n + 2) .title {
-  color: #0284fd;
+  color: #000000;
 }
 
 .main-timeline .timeline:nth-child(4n + 3) .timeline-content:before {
-  background-color: #003cff;
+  background-color: #1b72c2;
 }
 
 .main-timeline .timeline:nth-child(4n + 3) .title {
-  color: #003cff;
+  color: #000000;
 }
 
 .main-timeline .timeline:nth-child(4n + 4) .timeline-content:before {
-  background-color: #0284fd;
+  background-color: #1b72c2;
 }
 
 .main-timeline .timeline:nth-child(4n + 4) .title {
-  color: #0284fd;
+  color: #000000;
 }
 
 .main-timeline .timeline:nth-child(4n + 5) .timeline-content:before {
-  background-color: #003cff;
+  background-color: #1b72c2;
 }
 
 .main-timeline .timeline:nth-child(4n + 5) .title {
-  color: #003cff;
+  color: #000000;
 }
 
 .main-timeline .timeline:nth-child(4n + 6) .timeline-content:before {
-  background-color: #0284fd;
+  background-color: #1b72c2;
 }
 
 .main-timeline .timeline:nth-child(4n + 6) .title {
-  color: #0284fd;
+  color: #000000;
 }
 
 .main-timeline .timeline:nth-child(4n + 7) .timeline-content:before {
-  background-color: #003cff;
+  background-color: #1b72c2;
 }
 
 .main-timeline .timeline:nth-child(4n + 7) .title {
-  color: #003cff;
+  color: #000000;
 }
 
 @media screen and (max-width:767px) {

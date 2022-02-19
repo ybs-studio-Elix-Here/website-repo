@@ -1,0 +1,21 @@
+.css-selector {
+  background: linear-gradient(270deg, #0082ec, #0049ff, #0c9cd2);
+  background-size: 600% 600%;
+  -webkit-animation: gradient 30s ease infinite;
+  -moz-animation: gradient 30s ease infinite;
+  -o-animation: gradient 30s ease infinite;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
