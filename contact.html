@@ -55,50 +55,18 @@
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
     <header class="text-center text-white bg-primary masthead" style="background: url(&quot;assets/img/homewallpaper.png&quot;) center, linear-gradient(#00d1ff, #004d85), var(--bs-teal);">
         <div class="container" style="margin-bottom: -34px;">
-            <h1 class="text-uppercase" style="text-align: center;font-size: 50px;">l'équipe</h1>
+            <h1 class="text-uppercase" style="text-align: center;font-size: 50px;">NOUS CONTACTER</h1>
             <hr class="star-light" style="margin-top: 14px;">
         </div>
     </header>
-    <section data-aos="zoom-out" class="team-boxed" style="background: var(--bs-secondary);box-shadow: inset 0px 10px 17px rgba(0,0,0,0.25), inset 0px -10px 17px rgba(0,0,0,0.25);">
-        <div class="container">
-            <div class="intro"></div>
-            <div class="row people" style="margin-top: 0px;">
-                <div class="col-md-6 col-lg-3 item">
-                    <div class="box" style="height: 344.644px;box-shadow: 6px 6px 20px rgba(0,0,0,0.8);"><img class="rounded-circle" src="assets/img/dt-clery.png">
-                        <h3 class="name">Cléry&nbsp;</h3>
-                        <h3 class="name" style="margin-top: -9px;"><strong>Pelvillain</strong><br></h3>
-                        <p class="title" style="font-family: Lato, sans-serif;color: #737373;">CHEF DE PROJET</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 item">
-                    <div class="box" style="height: 344.644px;box-shadow: 6px 6px 20px rgba(0,0,0,0.8);"><img class="rounded-circle" src="assets/img/dt-jacques.png">
-                        <h3 class="name">Jacques</h3>
-                        <h3 class="name" style="margin-top: -9px;"><strong>Saudubray</strong><br></h3>
-                        <p class="title" style="font-family: Lato, sans-serif;color: #737373;">MEMBRE</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 item">
-                    <div class="box" style="height: 344.644px;box-shadow: 6px 6px 20px rgba(0,0,0,0.8);"><img class="rounded-circle" src="assets/img/dt-mathis.png">
-                        <h3 class="name">Mathis</h3>
-                        <h3 class="name" style="margin-top: -9px;"><strong>Person</strong><br></h3>
-                        <p class="title" style="font-family: Lato, sans-serif;color: #737373;">MEMBRE</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 item">
-                    <div class="box" style="height: 344.644px;box-shadow: 6px 6px 20px rgba(0,0,0,0.8);"><img class="rounded-circle" src="assets/img/dt-jules.png">
-                        <h3 class="name">Jules</h3>
-                        <h3 class="name" style="margin-top: -9px;"><strong>Gazengel</strong><br></h3>
-                        <p class="title" style="color: #737373;">MEMBRE</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <figure class="text-center" style="text-align: center;font-family: Lato, sans-serif;color: rgb(255,255,255);border-style: none;">
-            <blockquote class="blockquote">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            </blockquote>
-            <figcaption class="blockquote-footer">Someone famous</figcaption>
-        </figure>
+    <section class="contact-clean">
+        <form data-bss-recipient="145cc90c7766a7bb2e6515ce45a60916" data-bss-loading-message="Envoi en cours..." data-bss-success-title="Terminé !" data-bss-success-message="Votre message a été envoyé avec succès !" data-bss-error-title="Erreur" data-bss-error-message="L'envoi du message a échoué." data-bss-close="Fermer" data-bss-subject="NOUVEAU MESSAGE !">
+            <h2 class="text-center" style="font-family: Montserrat, sans-serif;">Nous contacter</h2>
+            <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Prénom / Nom"></div>
+            <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Adresse e-mail*"><small class="form-text text-danger">Veuillez entrer une adresse e-mail correcte.</small></div>
+            <div class="mb-3"><textarea class="form-control" name="message" placeholder="Votre message" rows="14"></textarea></div>
+            <div class="mb-3"><button class="btn btn-primary" type="submit">ENVOYER</button></div>
+        </form>
     </section>
     <footer class="footer-basic" style="background: url(&quot;assets/img/homewallpaper.png&quot;) center, rgb(20,133,238);margin-top: 0;">
         <ul class="list-inline text-center justify-content-center align-items-center">
@@ -126,6 +94,7 @@
         </div>
     </nav>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
