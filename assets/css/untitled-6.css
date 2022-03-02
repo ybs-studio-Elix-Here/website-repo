@@ -1,0 +1,7 @@
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  /*color: #000;*/
+  /*background-color: #3bc6ab;*/
+  /*border-color: #2fc3a6;*/
+  /*box-shadow: 0 0 0 .25rem rgba(20,160,133,.5);*/
+}
+
